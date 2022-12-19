@@ -1,0 +1,13 @@
+<div class="menu-logo">
+  <img src="/images/logo.png" class="logo" alt="Logo">
+  <div class="menu">
+    <% for (let i=0; i < links.length; i++) { %>
+      <a class="linksheader" href="<%= links[i].href %>">
+        <%= links[i].label %>
+      </a>
+      <% } %>
+  </div>
+  <div class="button">
+    <button class="btn-menu"><a href="/adicao_receita" id="botao_add" class="link-light">Adicionar Receita</a></button>
+  </div>
+</div>

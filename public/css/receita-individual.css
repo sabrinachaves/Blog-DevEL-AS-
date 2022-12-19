@@ -1,0 +1,103 @@
+body{
+    background-color: #FBF6F3;
+}
+
+main{
+    width: 70%;
+    margin: auto auto;
+    justify-content: center;
+}
+
+.block1{
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe{
+    border: 2px solid #000000;
+}
+
+#recipe{
+    height: 30vh;
+    margin-bottom: 4%;
+}
+
+.title, .title-rating{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 900;
+    color: #000000;
+    font-size: 3.5vh;
+    text-align: left;
+    padding-top: 5%;
+}
+
+.title-rating{
+    font-size: 2.5vh;
+    text-align: right;
+}
+
+li, .paragraph{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    font-size: 2.5vh;
+    text-align: left;
+    padding: 5%;
+}
+
+.block2{
+    padding: 0 1.5%;
+}
+
+#botaoeditar {
+    
+    background-color: #01B057;
+    border: none;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#botaoeditar:hover {
+    background-color: #088042;
+    border: none;
+}
+
+#botaoeditar:visited {
+    text-decoration: none;
+    color: #dbdbdb;
+    border: none;
+}
+
+
+#botaodeletar {
+    background-color: #FD5D5D;
+    color: #FBF6F3;
+    border: none;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+#botaodeletar:hover {
+    background-color: #c14242;
+    border: none;
+}
+
+.paragrafo{
+    text-align: justify;
+    padding: 5%;
+}
+
+footer{
+    padding-top: 3%;
+}
+
+
